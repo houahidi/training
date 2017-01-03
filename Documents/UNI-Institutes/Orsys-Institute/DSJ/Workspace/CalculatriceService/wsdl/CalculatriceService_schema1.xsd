@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://soap.service.carsat.fr/" xmlns:tns="http://soap.service.carsat.fr/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Reponse" type="tns:ReponseType"/>
+
+  <xs:element name="Requete" type="tns:RequeteType"/>
+
+  <xs:element name="Operande1" type="xs:double"/>
+  
+  <xs:element name="Operande2" type="xs:double"/>
+   
+  <xs:element name="Resultat" type="xs:double"/>
+
+  <xs:complexType name="RequeteType">
+    <xs:sequence>
+      <xs:element ref="tns:Operande1" />
+      <xs:element ref="tns:Operande2" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ReponseType">
+    <xs:sequence>
+      <xs:element ref="tns:Resultat"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  
+  <xs:complexType name="RequeteNotification">
+    <xs:sequence>
+      <xs:element name="message" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  
+</xs:schema>
+
