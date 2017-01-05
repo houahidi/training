@@ -1,8 +1,19 @@
-class Test{
+package fr.gtm.biblio.inventaire.dao;
 
-	public String toString(){{
+class Test {
+
+	private String name;
+
+	public Test() {
+
 	}
-  
-  public Test(){
-  }
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 }
