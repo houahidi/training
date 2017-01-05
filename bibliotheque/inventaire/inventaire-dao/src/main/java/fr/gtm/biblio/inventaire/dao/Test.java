@@ -7,6 +7,8 @@ class Test {
 	public Test() {
 
 	}
+	
+	
 
 	public String getName() {
 		return name;
