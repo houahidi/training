@@ -1,0 +1,9 @@
+fr\gtm\biblio\inventaire\cdi\interceptors\TransactionInterceptor.class
+fr\gtm\biblio\inventaire\dao\ExemplaireDao.class
+fr\gtm\biblio\inventaire\dao\jpa\ExemplaireDaoImpl.class
+fr\gtm\biblio\inventaire\dao\jpa\MediaDaoImpl.class
+fr\gtm\biblio\inventaire\dao\EntiteDao.class
+fr\gtm\biblio\inventaire\dao\jpa\EntiteDaoImpl.class
+fr\gtm\biblio\inventaire\cdi\interceptors\Transaction.class
+fr\gtm\biblio\inventaire\dao\jpa\TestJPAApplication.class
+fr\gtm\biblio\inventaire\dao\MediaDao.class

@@ -1,0 +1,3 @@
+fr\gtm\biblio\inventaire\dao\tests\ExemplaireDaoTestCase.class
+fr\gtm\biblio\inventaire\dao\tests\MediaWithCdiDaoTestCase.class
+fr\gtm\biblio\inventaire\dao\tests\ExemplaireWithCdiDaoTestCase.class
