@@ -6,6 +6,8 @@ class Test {
 	
 	private long id;
 	
+	private String author;
+	
 
 	public Test() {
 
