@@ -1,6 +1,4 @@
-
-
-
+# configuration
 git config --global user.name "houahidi"
 git config --global user.email "houahidi@uni-consulting.fr"
 
