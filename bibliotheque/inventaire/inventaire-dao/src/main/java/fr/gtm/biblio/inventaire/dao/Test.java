@@ -1,4 +1,5 @@
 package fr.gtm.biblio.inventaire.dao;
+import java.util.Date;
 
 class Test {
 
@@ -7,6 +8,11 @@ class Test {
 	private long id;
 
 	private long version;
+	
+	private String author;
+	
+	private Date publishedAt;
+	
 
 	public Test() {
 
