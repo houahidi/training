@@ -62,6 +62,8 @@ git branch testing
 
 # Switching Branches
  git checkout testing
-
+ 
+ The --rebase option can be used to ensure a linear history by preventing unnecessary merge commits
+ git pull --rebase origin
 
 
