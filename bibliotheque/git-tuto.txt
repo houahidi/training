@@ -1,0 +1,67 @@
+
+
+
+git config --global user.name "houahidi"
+git config --global user.email "houahidi@uni-consulting.fr"
+
+git config --list
+
+
+# local repository
+git init
+git add  file.txt
+git commit -m 'initial project version'
+git status
+
+git log #Viewing the Commit History
+
+# clone an existing Repository
+git clone url
+git clone  url name
+
+
+#Add Remote repositories
+git remote add remote-name remote-url
+git remote -v  # list remote repositories
+
+
+# Fetching and Pulling from Your Remotes
+git fetch [remote-name] # update the associated branch in the repository not local work
+
+
+# do merge to get data in local 
+
+
+# Pushing to Your Remotes
+
+git push origin master
+
+
+# Inspecting a Remote
+git remote show [remote-name]
+
+
+
+# create tags 
+git tag -a v1.2  
+
+
+# Sharing Tags 
+git push origin v1.5
+
+
+
+# Checking out Tags
+git checkout -b [branchname] [tagname]
+
+
+
+# Creating a New Branch
+git branch testing
+
+
+# Switching Branches
+ git checkout testing
+
+
+
