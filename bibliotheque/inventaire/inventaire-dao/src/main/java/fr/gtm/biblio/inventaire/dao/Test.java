@@ -3,6 +3,9 @@ package fr.gtm.biblio.inventaire.dao;
 class Test {
 
 	private String name;
+	
+	private long id;
+	
 
 	public Test() {
 
@@ -23,6 +26,18 @@ class Test {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+
+
+	public long getId() {
+		return id;
+	}
+
+
+
+	public void setId(long id) {
+		this.id = id;
 	}
 
 }
